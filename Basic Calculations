@@ -1,0 +1,54 @@
+
+ // Name: Barkha Kumari, Branch: A1
+ #include <iostream>
+ using namespace std;
+
+ int main() {
+
+ float num1, num2;
+ int sum, diff, product;
+ float quotient;
+ cout<<"Enter a Number: ";
+
+cin>>num1;
+
+
+ cout<<"Enter 2nd Number: ";
+
+ cin>>num2;
+ sum=num1+num2;
+
+ diff=num1-num2;
+ product=num1*num2;
+
+ quotient=num1/num2;
+
+ cout<< "the sum is:"<<endl;
+
+ cout<<sum<<endl;
+
+
+ cout<< "the Product is:"<<endl;
+ cout<<product<<endl;
+
+ cout<< "the Difference is: "<<endl;
+ cout<<diff<<endl;
+
+ cout<< "the Division is:"<<endl;
+ cout<<quotient<<endl;
+
+return 0;}
+
+
+/* OUTPUT
+Enter a Number: 75
+Enter 2nd Number: 85
+the sum is:
+160
+the Product is:
+6375
+the Difference is: 
+-10
+the Division is:
+0.882353
+*/
