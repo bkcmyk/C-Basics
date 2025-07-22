@@ -14,20 +14,20 @@ This program is based on the fundamental concept of arithmetic operations in pro
 / → Division
 
  Key Concepts:
-1. Data Types:
+ 1. Data Types:
 float: Used for storing decimal (floating-point) numbers.
 int: Used for whole numbers (integers).
 In this program, num1 and num2 are declared as float to allow decimal inputs. However, some results are stored in int, which may lose decimal precision.
 
-2.Input/Output:
+2. Input/Output:
 cin is used to take input from the user.
 cout is used to display the results on the screen.
 
-3.Type Conversion (Implicit Casting):
+3. Type Conversion (Implicit Casting):
 When performing operations between float and storing them in int variables (like sum, diff, and product), C++ automatically converts (truncates) the result to an integer. This may lead to a loss of decimal values.
 Division (/) is stored in a float to preserve decimal accuracy.
 
-4.Order of Execution:
+4. Order of Execution:
 The program executes from top to bottom, first taking input, then performing operations, and finally displaying the results.
 
 
