@@ -1,11 +1,3 @@
-This C++ program performs basic arithmetic operations (addition, subtraction, multiplication, and division) on two user-input floating-point numbers. It calculates the:
-Sum
-Difference
-Product
-Quotient
-and then displays each result with appropriate labels.
-
-****
 
 This program is based on the fundamental concept of arithmetic operations in programming. In any programming language, arithmetic operators are used to perform basic mathematical calculations. The most common operators include:
 + → Addition
