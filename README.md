@@ -1,30 +1,79 @@
+# Basic Arithmetic Operations in C++
 
-This program is based on the fundamental concept of arithmetic operations in programming. In any programming language, arithmetic operators are used to perform basic mathematical calculations. The most common operators include:
-+ → Addition
-- → Subtraction
-* → Multiplication
-/ → Division
+## Program Overview
 
- Key Concepts:
- 1. Data Types:
-float: Used for storing decimal (floating-point) numbers.
-int: Used for whole numbers (integers).
-In this program, num1 and num2 are declared as float to allow decimal inputs. However, some results are stored in int, which may lose decimal precision.
+This program is based on the fundamental concept of **arithmetic operations** in programming. It demonstrates how to use basic arithmetic operators in C++ to perform mathematical calculations such as addition, subtraction, multiplication, and division.
 
-2. Input/Output:
-cin is used to take input from the user.
-cout is used to display the results on the screen.
+The inputs are taken from the user, and each result is calculated and printed. The program also highlights how data types affect the result and precision of arithmetic expressions.
 
-3. Type Conversion (Implicit Casting):
-When performing operations between float and storing them in int variables (like sum, diff, and product), C++ automatically converts (truncates) the result to an integer. This may lead to a loss of decimal values.
-Division (/) is stored in a float to preserve decimal accuracy.
+---
 
-4. Order of Execution:
-The program executes from top to bottom, first taking input, then performing operations, and finally displaying the results.
+## Working
+
+The program performs the following steps:
+
+1. Takes two numbers as input from the user (decimal values allowed)
+2. Calculates:
+   - Sum
+   - Difference
+   - Product
+   - Quotient
+3. Prints the result of each operation with appropriate labels
+
+---
+
+## Sample Output
+
+Enter a Number: 75
+
+Enter 2nd Number: 85
+
+The Sum is: 160
+
+The Product is: 6375
+
+The Difference is: -10
+
+The Division is: 0.882353
 
 
- Purpose:
-This type of program helps beginners understand:
-How to take input and give output in C++
-How to perform and store arithmetic calculations
-The behavior of data types in arithmetic expressions
+---
+
+## Key Concepts Demonstrated
+
+### 1. Arithmetic Operators
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+
+These are used to perform standard mathematical operations between two numbers.
+
+### 2. Data Types
+- `float`: Used for variables `num1`, `num2`, and all result variables to **preserve decimal precision**.
+- `int`: Initially used for storing some results (in the original version), which caused **loss of precision** due to implicit type conversion.
+
+### 3. Input/Output
+- `cin`: Accepts user input from the console
+- `cout`: Prints output to the screen
+
+### 4. Type Conversion (Implicit Casting)
+- If `float` results are stored in `int` variables, C++ truncates the decimal part.  
+- To avoid data loss, all results are stored in `float` variables.
+
+### 5. Order of Execution
+- Input is taken first
+- Calculations are performed next
+- Final results are displayed using `cout`
+
+---
+
+## Learning Outcomes
+
+By working through this program, a beginner will learn:
+
+- How to declare and use numeric data types like `float` in C++
+- How to take user input using `cin` and print output using `cout`
+- How arithmetic expressions are evaluated
+- The importance of selecting the correct data type to preserve accuracy
+- How implicit type conversion can affect the final result
